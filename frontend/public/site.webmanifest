@@ -1,0 +1,32 @@
+{
+    "name": "MSE Zone — Premium Online Shopping",
+    "short_name": "MSE Zone",
+    "description": "Shop high-quality clothes, cosmetics, kitchenware, toys, and lifestyle accessories at MSE Zone. WhatsApp ordering & Cash on Delivery available across Pakistan.",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4f46e5",
+    "orientation": "portrait-primary",
+    "categories": [
+        "shopping",
+        "lifestyle",
+        "fashion"
+    ],
+    "lang": "en-PK",
+    "dir": "ltr",
+    "icons": [
+        {
+            "src": "/logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

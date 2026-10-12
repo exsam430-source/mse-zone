@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+Allow: /collection
+Allow: /product/
+Allow: /about
+Allow: /contact
+Allow: /return-policy
+Allow: /refund-policy
+Allow: /wholesale-policy
+
+Disallow: /admin/
+Disallow: /profile
+Disallow: /orders
+Disallow: /cart
+Disallow: /place-order
+Disallow: /login
+Disallow: /api/
+
+# Crawl-delay for heavy bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+Sitemap: https://msezone.mrsolverlearninghub.com/sitemap.xml

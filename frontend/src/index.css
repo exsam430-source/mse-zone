@@ -1,0 +1,44 @@
+/* index.css */
+
+/* Google Fonts first */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+
+@import "tailwindcss";
+
+/* App custom styles */
+a.active hr {
+  display: block;
+}
+
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* hide scrollbar on webkit */
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  a.active {
+    background-color: black;
+    color: white;
+  }
+}
+
+/* any admin-specific small differences */
+.active {
+  background-color: #ffebf5;
+  border-color: #C586A5;
+}
